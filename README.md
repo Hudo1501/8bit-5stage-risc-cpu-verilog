@@ -9,8 +9,6 @@
 ![Checks](https://img.shields.io/badge/Directed%20Checks-9%20%2F%209%20PASS-brightgreen)
 ![Target](https://img.shields.io/badge/Target-Xilinx%20Artix--7-red)
 
-**Student:** Truong Dong Hung &nbsp;·&nbsp; **ID:** SE201121 &nbsp;·&nbsp; FPT University Ho Chi Minh City
-
 </div>
 
 ---
