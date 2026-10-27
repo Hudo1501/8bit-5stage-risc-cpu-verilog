@@ -153,8 +153,6 @@ A **bubble** (`valid = 0`) moves through the pipeline with every write-enable fo
 
 ## 5. Hazard Handling
 
-![Hazard types and forwarding diagram](docs/hazards.png)
-
 | Kind | Cause | Solution | Cost |
 |---|---|---|:---:|
 | Structural | Two stages need the same memory port | Harvard architecture · separate R/W ports in regfile | 0 |
