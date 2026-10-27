@@ -174,8 +174,8 @@ The register-file **write-through bypass** covers the distance-3 case: WB writes
 
 ### Load-use stall and branch flush
 
-![Load-use stall and branch flush timing diagrams](docs/load_use_branch.png)
-
+![Load-use stall diagrams](docs/load_use_stall.png)
+![Branch flush timing diagrams](docs/flush_branch.png)
 **Load-use stall:** `LD R5,[R4]` followed immediately by a dependent instruction. The hazard unit detects `ex_mem_to_reg = 1` AND the instruction in ID reads `ex_rd`. It raises `stall` for one cycle: PC and IF/ID freeze, a bubble enters ID/EX. One cycle later, MEM/WB forwarding supplies the loaded value.
 
 **Branch flush:** The branch is resolved in EX where the flags are guaranteed up to date. If taken, PC is loaded with the target address and the two wrongly-fetched instructions in IF/ID and ID/EX become bubbles. Not-taken branches cost nothing.
