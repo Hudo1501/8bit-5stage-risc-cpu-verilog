@@ -457,6 +457,3 @@ fwd        At least one ALU operand supplied by forwarding
 
 > **FPGA tip:** The program finishes in ~0.5 µs at 100 MHz. To observe the LEDs changing step by step, insert a clock divider (e.g., divide to 1 Hz) between the oscillator and the core's `clk` input.
 
----
-
-*FPT University Ho Chi Minh City — Bachelor of Software Engineering, Semiconductor & Automotive Software*
